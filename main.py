@@ -3,10 +3,8 @@
 ##
 ## Description:
 ## The function plain_deep_int_array can plain any deep int array.
-##
-## To try the function with your values. Please uncomment the line 40
 ## 
-## Unit test are available in the option in left bellow button.
+## Unit test are available in the replit option (I think you need to fork the project. Or if you need invite or something tell me please).
 ## 
 
 import json
@@ -37,4 +35,5 @@ def tryPlain():
     print(err)
 
 ## Uncomment the next line to make your own test
-tryPlain()
+if __name__ == "__main__":
+  tryPlain()
